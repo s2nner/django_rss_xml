@@ -6,7 +6,19 @@ Use https://pypi.python.org/pypi/feedparser
 for standard RSS
 
 ### install 
+
 pip install django-rss_xml-parser
+
+
+add to settings
+
+```python
+INSTALLED_APPS = [
+    ...
+    'django_rss_xml',
+    ...
+    ]
+```
 
 
 ### usage
