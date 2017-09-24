@@ -1,11 +1,11 @@
-##Django rss/xml parser(django_rss_xml)
+## Django rss/xml parser(django_rss_xml)
 This parse is intended for XML / RSS, which does not conform to the standard:
 https://tools.ietf.org/html/rfc5005
 
 Use https://pypi.python.org/pypi/feedparser
 for standard RSS
 
-###install 
+### install 
 pip install django-rss_xml-parser
 
 
@@ -70,7 +70,7 @@ class RSSView(TemplateView, RSS):
         return context
 ```
 
-##Running tests
+## Running tests
 
 ```bash
 python manage.py test django_rss_xml
